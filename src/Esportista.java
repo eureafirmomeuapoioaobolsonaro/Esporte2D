@@ -18,5 +18,11 @@ public class Esportista extends Pessoa {
 
     public void setIdFederacao(int idFederacao) {
         this.idFederacao = idFederacao;
+
+        // Metodo
+        public String sacar(){
+            return "sacando ...";
+        }
+
     }
 }
